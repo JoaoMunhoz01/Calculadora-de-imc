@@ -1,0 +1,42 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Confortaa" ,sans-serif;
+}
+.login{
+    height: 420px;
+    width: 320px;
+    border: 2px solid #000;
+    border-radius: 80px 0px 80px 0px;
+    color: #fff;
+    background-color: rgba(0, 0, 5, 0.8);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 68px 28px;
+   
+}
+
+.login input{
+   
+    margin-left: 40px;
+    height: 20px;
+    width: 120px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 80px 00px 80px 80px;
+}
+.login [type="submit"] {
+    border-radius: 80px 80px 80px 80px;
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+}
+.login p{
+    font-size: 10px;
+}
+
